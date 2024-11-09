@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Sketch&family=Noto+Sans+Elbasan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        /* Contenedor principal para alinear elementos */
+        .cabecero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            font-family: 'Lato', sans-serif;
+            margin: 20px auto; /* Centra el contenedor en la página */
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        /* Contenedor de la imagen y el nombre */
+        .perfil {
+            display: flex;
+            align-items: center;
+            margin-left: 100px;
+        }
+
+        /* Estilo para la imagen de perfil */
+        .perfil img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-left: 0px;
+            object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+        }
+
+        /* Estilo para el enlace del nombre */
+        .perfil .nombre {
+            text-decoration: none;
+            color: rgba(212, 115, 35, 0.983);
+            font-size: 16px;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        /* Estilo para el botón de correo */
+        .boton {
+            background-color: #8b8a73;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-right: 100px;
+        }
+
+        /* Estilo para la temática */
+
+        .tematica{
+            text-align: center;
+        }
+       
+        h1{
+            margin-top: 60px;
+            font-family: poppins;
+            color: rgba(212, 115, 35, 0.983);
+        }
+
+        h3{
+            font-family: lato;
+            color: #8b8a73;
+            margin-bottom: 30px;
+            
+        }
+
+        .contenedor-tarjetas {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap; /* Permite que las tarjetas se acomoden en múltiples filas */
+        }
+
+        /* Estilo para cada tarjeta */
+        .tarjeta {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            font-family: lato;
+        }
+
+        /* Imagen en la tarjeta */
+        .tarjeta img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Contenido de texto dentro de la tarjeta */
+        .contenido {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Estilo para la ubicación */
+        .ubicacion {
+            font-size: 14px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        /* Estilo para el título */
+        .titulo {
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Estilo para la descripción */
+        .descripcion {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        /* Estilo para la fecha */
+        .fecha {
+            font-size: 12px;
+            color: #999;
+        }  
